@@ -8,5 +8,6 @@ Route::get('/day-2', Controllers\DayTwoController::class)->name('day-2');
 Route::get('/day-3', Controllers\DayThreeController::class)->name('day-3');
 Route::get('/day-4', Controllers\DayFourController::class)->name('day-4');
 Route::get('/day-5', Controllers\DayFiveController::class)->name('day-5');
+Route::get('/day-6', Controllers\DaySixController::class)->name('day-6');
 
 Route::get('/', Controllers\HomeController::class);
