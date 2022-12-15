@@ -12,5 +12,7 @@ Route::get('/day-6', Controllers\DaySixController::class)->name('day-6');
 Route::get('/day-7', Controllers\DaySevenController::class)->name('day-7');
 Route::get('/day-8', Controllers\DayEightController::class)->name('day-8');
 Route::get('/day-9', Controllers\DayNineController::class)->name('day-9');
+Route::get('/day-10', Controllers\DayTenController::class)->name('day-10');
+Route::view('/day-10-show-letters', 'day-10-show-letters')->name('day-10-show-letters');
 
 Route::get('/', Controllers\HomeController::class);
